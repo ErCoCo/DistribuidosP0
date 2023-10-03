@@ -1,0 +1,4 @@
+/home/ubuntu/Ejemplo0/Ej_0LibUtils/CMakeFiles/server.dir
+/home/ubuntu/Ejemplo0/Ej_0LibUtils/CMakeFiles/client.dir
+/home/ubuntu/Ejemplo0/Ej_0LibUtils/CMakeFiles/edit_cache.dir
+/home/ubuntu/Ejemplo0/Ej_0LibUtils/CMakeFiles/rebuild_cache.dir
