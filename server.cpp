@@ -2,6 +2,15 @@
 #include <stdlib.h>
 #include <iostream>
 #include "utils.h"
+#include "operaciones.h"
+
+
+template<typename T>
+T suma(T di, T d2)
+{
+    return d1+d2;
+}
+
 
 int main(int argc, char** argv)
 {
@@ -9,24 +18,30 @@ int main(int argc, char** argv)
 
     while(1)
     {
-        if(checkClient())
+        if(!checkClient())
         {
             usleep(1000); 
         }else{
-            int clientId = getLastClientID();
+            clientId = getLastClientID();
 
-            std::vector<char> packetIn;
-            recvMSG(clientId, packetIn);
-
-            //for( auto c : packetIn){ Asi esta creando copias
-            for (auto &c : packetIn){
-                std::cout << c;
-            }
-            std::cout << '\n';
-
+            std::vector<rpcOperacion> packetIn;
             std::vector<int> packetOut;
-            packetOut.resize(1);
-            packetOut[0] = 1;
+            recvMSG(clientID, packetIn);
+
+            for(auto &op:packetIn)
+            {
+                swtich(op.operacion)
+                {
+                    case opSuma:
+                    {
+                        int res=suma(op.d1, op.d2);
+                        packetOut.push_back(res);
+                    }
+                }break;
+                default:
+                    std::cout<<"ERROR: operacion no valida\n"
+                break;
+            }
 
             sendMSG(clientId, packetOut);
 

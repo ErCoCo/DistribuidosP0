@@ -1,6 +1,6 @@
 CMakeFiles/client.dir/client.cpp.o: \
- /home/ubuntu/Ejemplo0/Ej_0LibUtils/client.cpp /usr/include/stdc-predef.h \
- /usr/include/stdio.h \
+ /home/ubuntu/Practicas/DistribuidosP0/client.cpp \
+ /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -146,7 +146,7 @@ CMakeFiles/client.dir/client.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/ubuntu/Ejemplo0/Ej_0LibUtils/utils.h \
+ /home/ubuntu/Practicas/DistribuidosP0/utils.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/x86_64-linux-gnu/bits/socket.h \
