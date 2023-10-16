@@ -1,5 +1,5 @@
 CMakeFiles/clientObjects.dir/clientPerson.cpp.o: \
- /home/ubuntu/Example/Ej_0LibUtils/clientPerson.cpp \
+ /home/ubuntu/Practicas/DistribuidosP0/clientPerson.cpp \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -146,7 +146,7 @@ CMakeFiles/clientObjects.dir/clientPerson.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/ubuntu/Example/Ej_0LibUtils/utils.h \
+ /home/ubuntu/Practicas/DistribuidosP0/utils.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
  /usr/include/x86_64-linux-gnu/bits/socket.h \
@@ -195,5 +195,5 @@ CMakeFiles/clientObjects.dir/clientPerson.cpp.o: \
  /usr/include/c++/11/ctime /usr/include/c++/11/bits/parse_numbers.h \
  /usr/include/c++/11/mutex /usr/include/c++/11/bits/std_mutex.h \
  /usr/include/c++/11/bits/unique_lock.h \
- /home/ubuntu/Example/Ej_0LibUtils/operations.h \
- /home/ubuntu/Example/Ej_0LibUtils/person.h
+ /home/ubuntu/Practicas/DistribuidosP0/operations.h \
+ /home/ubuntu/Practicas/DistribuidosP0/person.h

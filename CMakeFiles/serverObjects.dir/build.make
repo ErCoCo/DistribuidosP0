@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Example/Ej_0LibUtils
+CMAKE_SOURCE_DIR = /home/ubuntu/Practicas/DistribuidosP0
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Example/Ej_0LibUtils
+CMAKE_BINARY_DIR = /home/ubuntu/Practicas/DistribuidosP0
 
 # Include any dependencies generated for this target.
 include CMakeFiles/serverObjects.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/serverObjects.dir/flags.make
 CMakeFiles/serverObjects.dir/server.cpp.o: CMakeFiles/serverObjects.dir/flags.make
 CMakeFiles/serverObjects.dir/server.cpp.o: server.cpp
 CMakeFiles/serverObjects.dir/server.cpp.o: CMakeFiles/serverObjects.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Example/Ej_0LibUtils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/serverObjects.dir/server.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/serverObjects.dir/server.cpp.o -MF CMakeFiles/serverObjects.dir/server.cpp.o.d -o CMakeFiles/serverObjects.dir/server.cpp.o -c /home/ubuntu/Example/Ej_0LibUtils/server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Practicas/DistribuidosP0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/serverObjects.dir/server.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/serverObjects.dir/server.cpp.o -MF CMakeFiles/serverObjects.dir/server.cpp.o.d -o CMakeFiles/serverObjects.dir/server.cpp.o -c /home/ubuntu/Practicas/DistribuidosP0/server.cpp
 
 CMakeFiles/serverObjects.dir/server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serverObjects.dir/server.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Example/Ej_0LibUtils/server.cpp > CMakeFiles/serverObjects.dir/server.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Practicas/DistribuidosP0/server.cpp > CMakeFiles/serverObjects.dir/server.cpp.i
 
 CMakeFiles/serverObjects.dir/server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serverObjects.dir/server.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Example/Ej_0LibUtils/server.cpp -o CMakeFiles/serverObjects.dir/server.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Practicas/DistribuidosP0/server.cpp -o CMakeFiles/serverObjects.dir/server.cpp.s
 
 CMakeFiles/serverObjects.dir/utils.cpp.o: CMakeFiles/serverObjects.dir/flags.make
 CMakeFiles/serverObjects.dir/utils.cpp.o: utils.cpp
 CMakeFiles/serverObjects.dir/utils.cpp.o: CMakeFiles/serverObjects.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Example/Ej_0LibUtils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/serverObjects.dir/utils.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/serverObjects.dir/utils.cpp.o -MF CMakeFiles/serverObjects.dir/utils.cpp.o.d -o CMakeFiles/serverObjects.dir/utils.cpp.o -c /home/ubuntu/Example/Ej_0LibUtils/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Practicas/DistribuidosP0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/serverObjects.dir/utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/serverObjects.dir/utils.cpp.o -MF CMakeFiles/serverObjects.dir/utils.cpp.o.d -o CMakeFiles/serverObjects.dir/utils.cpp.o -c /home/ubuntu/Practicas/DistribuidosP0/utils.cpp
 
 CMakeFiles/serverObjects.dir/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serverObjects.dir/utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Example/Ej_0LibUtils/utils.cpp > CMakeFiles/serverObjects.dir/utils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Practicas/DistribuidosP0/utils.cpp > CMakeFiles/serverObjects.dir/utils.cpp.i
 
 CMakeFiles/serverObjects.dir/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serverObjects.dir/utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Example/Ej_0LibUtils/utils.cpp -o CMakeFiles/serverObjects.dir/utils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Practicas/DistribuidosP0/utils.cpp -o CMakeFiles/serverObjects.dir/utils.cpp.s
 
 # Object files for target serverObjects
 serverObjects_OBJECTS = \
@@ -109,7 +109,7 @@ serverObjects: CMakeFiles/serverObjects.dir/server.cpp.o
 serverObjects: CMakeFiles/serverObjects.dir/utils.cpp.o
 serverObjects: CMakeFiles/serverObjects.dir/build.make
 serverObjects: CMakeFiles/serverObjects.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Example/Ej_0LibUtils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable serverObjects"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Practicas/DistribuidosP0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable serverObjects"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/serverObjects.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/serverObjects.dir/clean:
 .PHONY : CMakeFiles/serverObjects.dir/clean
 
 CMakeFiles/serverObjects.dir/depend:
-	cd /home/ubuntu/Example/Ej_0LibUtils && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Example/Ej_0LibUtils /home/ubuntu/Example/Ej_0LibUtils /home/ubuntu/Example/Ej_0LibUtils /home/ubuntu/Example/Ej_0LibUtils /home/ubuntu/Example/Ej_0LibUtils/CMakeFiles/serverObjects.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Practicas/DistribuidosP0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Practicas/DistribuidosP0 /home/ubuntu/Practicas/DistribuidosP0 /home/ubuntu/Practicas/DistribuidosP0 /home/ubuntu/Practicas/DistribuidosP0 /home/ubuntu/Practicas/DistribuidosP0/CMakeFiles/serverObjects.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/serverObjects.dir/depend
 

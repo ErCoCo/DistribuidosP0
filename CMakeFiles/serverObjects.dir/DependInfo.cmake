@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ubuntu/Example/Ej_0LibUtils/server.cpp" "CMakeFiles/serverObjects.dir/server.cpp.o" "gcc" "CMakeFiles/serverObjects.dir/server.cpp.o.d"
-  "/home/ubuntu/Example/Ej_0LibUtils/utils.cpp" "CMakeFiles/serverObjects.dir/utils.cpp.o" "gcc" "CMakeFiles/serverObjects.dir/utils.cpp.o.d"
+  "/home/ubuntu/Practicas/DistribuidosP0/server.cpp" "CMakeFiles/serverObjects.dir/server.cpp.o" "gcc" "CMakeFiles/serverObjects.dir/server.cpp.o.d"
+  "/home/ubuntu/Practicas/DistribuidosP0/utils.cpp" "CMakeFiles/serverObjects.dir/utils.cpp.o" "gcc" "CMakeFiles/serverObjects.dir/utils.cpp.o.d"
   )
 
 # Targets to which this target links.
