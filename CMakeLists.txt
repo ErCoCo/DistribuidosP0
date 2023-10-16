@@ -13,3 +13,11 @@ target_link_libraries(server pthread)
 project(client LANGUAGES CXX)
 add_executable(client client.cpp utils.h utils.cpp )
 target_link_libraries(client pthread)
+
+project(serverObjects LANGUAGES CXX)
+add_executable(serverObjects server.cpp utils.h utils.cpp)
+target_link_libraries(serverObjects pthread)
+
+project(clientObjects LANGUAGES CXX)
+add_executable(clientObjects clientPerson.cpp utils.h utils.cpp person.h)
+target_link_libraries(clientObjects pthread)

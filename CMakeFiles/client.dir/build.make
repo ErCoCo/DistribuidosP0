@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Practicas/DistribuidosP0
+CMAKE_SOURCE_DIR = /home/ubuntu/Example/Ej_0LibUtils
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Practicas/DistribuidosP0
+CMAKE_BINARY_DIR = /home/ubuntu/Example/Ej_0LibUtils
 
 # Include any dependencies generated for this target.
 include CMakeFiles/client.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/client.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/client.cpp.o: client.cpp
 CMakeFiles/client.dir/client.cpp.o: CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Practicas/DistribuidosP0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/client.dir/client.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/client.cpp.o -MF CMakeFiles/client.dir/client.cpp.o.d -o CMakeFiles/client.dir/client.cpp.o -c /home/ubuntu/Practicas/DistribuidosP0/client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Example/Ej_0LibUtils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/client.dir/client.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/client.cpp.o -MF CMakeFiles/client.dir/client.cpp.o.d -o CMakeFiles/client.dir/client.cpp.o -c /home/ubuntu/Example/Ej_0LibUtils/client.cpp
 
 CMakeFiles/client.dir/client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Practicas/DistribuidosP0/client.cpp > CMakeFiles/client.dir/client.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Example/Ej_0LibUtils/client.cpp > CMakeFiles/client.dir/client.cpp.i
 
 CMakeFiles/client.dir/client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Practicas/DistribuidosP0/client.cpp -o CMakeFiles/client.dir/client.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Example/Ej_0LibUtils/client.cpp -o CMakeFiles/client.dir/client.cpp.s
 
 CMakeFiles/client.dir/utils.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/utils.cpp.o: utils.cpp
 CMakeFiles/client.dir/utils.cpp.o: CMakeFiles/client.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Practicas/DistribuidosP0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/client.dir/utils.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/utils.cpp.o -MF CMakeFiles/client.dir/utils.cpp.o.d -o CMakeFiles/client.dir/utils.cpp.o -c /home/ubuntu/Practicas/DistribuidosP0/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu/Example/Ej_0LibUtils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/client.dir/utils.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/client.dir/utils.cpp.o -MF CMakeFiles/client.dir/utils.cpp.o.d -o CMakeFiles/client.dir/utils.cpp.o -c /home/ubuntu/Example/Ej_0LibUtils/utils.cpp
 
 CMakeFiles/client.dir/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/utils.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Practicas/DistribuidosP0/utils.cpp > CMakeFiles/client.dir/utils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu/Example/Ej_0LibUtils/utils.cpp > CMakeFiles/client.dir/utils.cpp.i
 
 CMakeFiles/client.dir/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/utils.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Practicas/DistribuidosP0/utils.cpp -o CMakeFiles/client.dir/utils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu/Example/Ej_0LibUtils/utils.cpp -o CMakeFiles/client.dir/utils.cpp.s
 
 # Object files for target client
 client_OBJECTS = \
@@ -109,7 +109,7 @@ client: CMakeFiles/client.dir/client.cpp.o
 client: CMakeFiles/client.dir/utils.cpp.o
 client: CMakeFiles/client.dir/build.make
 client: CMakeFiles/client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Practicas/DistribuidosP0/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu/Example/Ej_0LibUtils/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/client.dir/clean:
 .PHONY : CMakeFiles/client.dir/clean
 
 CMakeFiles/client.dir/depend:
-	cd /home/ubuntu/Practicas/DistribuidosP0 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Practicas/DistribuidosP0 /home/ubuntu/Practicas/DistribuidosP0 /home/ubuntu/Practicas/DistribuidosP0 /home/ubuntu/Practicas/DistribuidosP0 /home/ubuntu/Practicas/DistribuidosP0/CMakeFiles/client.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu/Example/Ej_0LibUtils && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu/Example/Ej_0LibUtils /home/ubuntu/Example/Ej_0LibUtils /home/ubuntu/Example/Ej_0LibUtils /home/ubuntu/Example/Ej_0LibUtils /home/ubuntu/Example/Ej_0LibUtils/CMakeFiles/client.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/client.dir/depend
 

@@ -1,6 +1,6 @@
 CMakeFiles/server.dir/utils.cpp.o: \
- /home/ubuntu/Practicas/DistribuidosP0/utils.cpp \
- /usr/include/stdc-predef.h /home/ubuntu/Practicas/DistribuidosP0/utils.h \
+ /home/ubuntu/Example/Ej_0LibUtils/utils.cpp /usr/include/stdc-predef.h \
+ /home/ubuntu/Example/Ej_0LibUtils/utils.h \
  /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/features.h \
  /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

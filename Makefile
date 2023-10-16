@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu/Practicas/DistribuidosP0
+CMAKE_SOURCE_DIR = /home/ubuntu/Example/Ej_0LibUtils
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu/Practicas/DistribuidosP0
+CMAKE_BINARY_DIR = /home/ubuntu/Example/Ej_0LibUtils
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Practicas/DistribuidosP0/CMakeFiles /home/ubuntu/Practicas/DistribuidosP0//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Example/Ej_0LibUtils/CMakeFiles /home/ubuntu/Example/Ej_0LibUtils//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Practicas/DistribuidosP0/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu/Example/Ej_0LibUtils/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,6 +142,32 @@ client/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
 .PHONY : client/fast
 
+#=============================================================================
+# Target rules for targets named serverObjects
+
+# Build rule for target.
+serverObjects: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 serverObjects
+.PHONY : serverObjects
+
+# fast build rule for target.
+serverObjects/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverObjects.dir/build.make CMakeFiles/serverObjects.dir/build
+.PHONY : serverObjects/fast
+
+#=============================================================================
+# Target rules for targets named clientObjects
+
+# Build rule for target.
+clientObjects: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clientObjects
+.PHONY : clientObjects
+
+# fast build rule for target.
+clientObjects/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clientObjects.dir/build.make CMakeFiles/clientObjects.dir/build
+.PHONY : clientObjects/fast
+
 client.o: client.cpp.o
 .PHONY : client.o
 
@@ -166,12 +192,37 @@ client.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/client.cpp.s
 .PHONY : client.cpp.s
 
+clientPerson.o: clientPerson.cpp.o
+.PHONY : clientPerson.o
+
+# target to build an object file
+clientPerson.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clientObjects.dir/build.make CMakeFiles/clientObjects.dir/clientPerson.cpp.o
+.PHONY : clientPerson.cpp.o
+
+clientPerson.i: clientPerson.cpp.i
+.PHONY : clientPerson.i
+
+# target to preprocess a source file
+clientPerson.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clientObjects.dir/build.make CMakeFiles/clientObjects.dir/clientPerson.cpp.i
+.PHONY : clientPerson.cpp.i
+
+clientPerson.s: clientPerson.cpp.s
+.PHONY : clientPerson.s
+
+# target to generate assembly for a file
+clientPerson.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clientObjects.dir/build.make CMakeFiles/clientObjects.dir/clientPerson.cpp.s
+.PHONY : clientPerson.cpp.s
+
 server.o: server.cpp.o
 .PHONY : server.o
 
 # target to build an object file
 server.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/server.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverObjects.dir/build.make CMakeFiles/serverObjects.dir/server.cpp.o
 .PHONY : server.cpp.o
 
 server.i: server.cpp.i
@@ -180,6 +231,7 @@ server.i: server.cpp.i
 # target to preprocess a source file
 server.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/server.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverObjects.dir/build.make CMakeFiles/serverObjects.dir/server.cpp.i
 .PHONY : server.cpp.i
 
 server.s: server.cpp.s
@@ -188,6 +240,7 @@ server.s: server.cpp.s
 # target to generate assembly for a file
 server.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/server.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverObjects.dir/build.make CMakeFiles/serverObjects.dir/server.cpp.s
 .PHONY : server.cpp.s
 
 utils.o: utils.cpp.o
@@ -197,6 +250,8 @@ utils.o: utils.cpp.o
 utils.cpp.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/utils.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/utils.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverObjects.dir/build.make CMakeFiles/serverObjects.dir/utils.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clientObjects.dir/build.make CMakeFiles/clientObjects.dir/utils.cpp.o
 .PHONY : utils.cpp.o
 
 utils.i: utils.cpp.i
@@ -206,6 +261,8 @@ utils.i: utils.cpp.i
 utils.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/utils.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/utils.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverObjects.dir/build.make CMakeFiles/serverObjects.dir/utils.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clientObjects.dir/build.make CMakeFiles/clientObjects.dir/utils.cpp.i
 .PHONY : utils.cpp.i
 
 utils.s: utils.cpp.s
@@ -215,6 +272,8 @@ utils.s: utils.cpp.s
 utils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/utils.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/utils.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/serverObjects.dir/build.make CMakeFiles/serverObjects.dir/utils.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clientObjects.dir/build.make CMakeFiles/clientObjects.dir/utils.cpp.s
 .PHONY : utils.cpp.s
 
 # Help Target
@@ -226,10 +285,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... client"
+	@echo "... clientObjects"
 	@echo "... server"
+	@echo "... serverObjects"
 	@echo "... client.o"
 	@echo "... client.i"
 	@echo "... client.s"
+	@echo "... clientPerson.o"
+	@echo "... clientPerson.i"
+	@echo "... clientPerson.s"
 	@echo "... server.o"
 	@echo "... server.i"
 	@echo "... server.s"

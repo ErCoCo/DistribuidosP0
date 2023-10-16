@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ubuntu/Practicas/DistribuidosP0/client.cpp" "CMakeFiles/client.dir/client.cpp.o" "gcc" "CMakeFiles/client.dir/client.cpp.o.d"
-  "/home/ubuntu/Practicas/DistribuidosP0/utils.cpp" "CMakeFiles/client.dir/utils.cpp.o" "gcc" "CMakeFiles/client.dir/utils.cpp.o.d"
+  "/home/ubuntu/Example/Ej_0LibUtils/client.cpp" "CMakeFiles/client.dir/client.cpp.o" "gcc" "CMakeFiles/client.dir/client.cpp.o.d"
+  "/home/ubuntu/Example/Ej_0LibUtils/utils.cpp" "CMakeFiles/client.dir/utils.cpp.o" "gcc" "CMakeFiles/client.dir/utils.cpp.o.d"
   )
 
 # Targets to which this target links.
