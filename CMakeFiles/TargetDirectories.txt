@@ -1,6 +1,0 @@
-/home/ubuntu/Practicas/DistribuidosP0/CMakeFiles/server.dir
-/home/ubuntu/Practicas/DistribuidosP0/CMakeFiles/client.dir
-/home/ubuntu/Practicas/DistribuidosP0/CMakeFiles/serverObjects.dir
-/home/ubuntu/Practicas/DistribuidosP0/CMakeFiles/clientObjects.dir
-/home/ubuntu/Practicas/DistribuidosP0/CMakeFiles/edit_cache.dir
-/home/ubuntu/Practicas/DistribuidosP0/CMakeFiles/rebuild_cache.dir

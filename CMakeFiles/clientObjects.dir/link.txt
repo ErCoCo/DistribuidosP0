@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -static CMakeFiles/clientObjects.dir/clientPerson.cpp.o CMakeFiles/clientObjects.dir/utils.cpp.o -o clientObjects  -lpthread 

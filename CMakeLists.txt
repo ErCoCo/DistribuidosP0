@@ -15,9 +15,9 @@ add_executable(client client.cpp utils.h utils.cpp )
 target_link_libraries(client pthread)
 
 project(serverObjects LANGUAGES CXX)
-add_executable(serverObjects server.cpp utils.h utils.cpp)
+add_executable(serverObjects serverObjects.cpp utils.h utils.cpp persona.h persona_imp.h)
 target_link_libraries(serverObjects pthread)
 
 project(clientObjects LANGUAGES CXX)
-add_executable(clientObjects clientPerson.cpp utils.h utils.cpp person.h)
+add_executable(clientObjects clientPersonas.cpp utils.h utils.cpp persona_stub.h)
 target_link_libraries(clientObjects pthread)

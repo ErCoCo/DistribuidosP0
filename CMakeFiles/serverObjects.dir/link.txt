@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -static CMakeFiles/serverObjects.dir/server.cpp.o CMakeFiles/serverObjects.dir/utils.cpp.o -o serverObjects  -lpthread 
